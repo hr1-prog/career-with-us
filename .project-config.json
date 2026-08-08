@@ -1,0 +1,42 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://2otehHwFmtXm1pw.8c23bfa80d50:1WiE7j5Hya0JCxt6kB7I@gateway03.us-east-1.prod.aws.tidbcloud.com:4000/Bnrix5Fq48iQ3RJ7uoPR6U?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/Bnrix5Fq48iQ3RJ7uoPR6U.git",
+    "expiration": "2026-08-07T13:30:50.879Z",
+    "token": "art_v1_589fed3903b2b9b0e575142357c76b20da1275a3?expires=1786109450",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "career-with-us",
+  "path": "/home/ubuntu/career-with-us",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "dUVNxtPf6VAVyT7E4PCm6Y",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "D8bmMdYEgijefKk4sp3Hdv",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Shaikhqayyum Mukhtar",
+    "OWNER_OPEN_ID": "2PM8YvpwdDiyNCnr7DTFGs",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "ff9e4107-db57-41cd-82ad-5bb67936cb2b",
+    "VITE_APP_ID": "Bnrix5Fq48iQ3RJ7uoPR6U",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Career With Us",
+    "VITE_FRONTEND_FORGE_API_KEY": "aEgjpfcqXvTsNVx2nrcWZD",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}

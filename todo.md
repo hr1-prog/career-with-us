@@ -1,0 +1,32 @@
+# Project TODO
+
+- [x] Preserve and display the uploaded Career With Us logo exactly as provided
+- [x] Create the premium logo-derived visual system and responsive public layout
+- [x] Add database tables for jobs, candidate applications, blog posts, and featured image metadata
+- [x] Add owner-only protected procedures for job CRUD and publish/unpublish
+- [x] Add owner-only protected procedures for blog CRUD and publish/unpublish
+- [x] Add public job listings with category and location filters
+- [x] Add candidate application form tied to a specific job and store submissions
+- [x] Add public locations page with Mumbai and Thane areas and filter links
+- [x] Add public blog listing, SEO-friendly post URLs, and featured images
+- [x] Add contact page with only the specified phone number and email
+- [x] Add per-page SEO metadata, canonical-friendly routes, internal links, JSON-LD job schema, sitemap.xml, and robots.txt
+- [x] Add owner admin dashboard UI for managing jobs, applications, and blog posts
+- [x] Add Vitest coverage for core job, blog, application, and access-control behavior
+- [x] Verify build, type checks, tests, and responsive browser preview
+- [x] Add dedicated job detail routes with job structured data and apply flow
+- [x] Add featured image upload handling for owner blog publishing
+- [x] Improve branded empty states and verify mobile layout
+- [x] Add edit and publish/unpublish controls to the admin UI for both jobs and blog posts
+- [x] Add Vitest tests covering job CRUD/access control, blog CRUD/access control, and application submission behavior
+- [x] Run and verify pnpm build
+- [x] Implement route-aware canonical tags and expand sitemap coverage for detail routes
+- [x] Add Vitest tests for job create/update/delete and blog create/update/delete, plus owner-only access control for those mutations
+- [x] Add a Vitest test covering a valid application submission path or equivalent procedure-level behavior
+- [x] Update sitemap.xml to include SEO-friendly job and blog detail URLs and location routes
+- [x] Add Vitest tests for successful admin job create/update/delete behavior using mocked database helpers
+- [x] Add Vitest tests for successful admin blog create/update/delete behavior using mocked database helpers
+- [x] Add a Vitest test for successful applications.submit procedure behavior
+- [ ] Create a sanitized self-deployment source archive without secrets, dependencies, logs, or generated build output
+- [ ] Add self-deployment instructions and environment-variable guidance to the export package
+- [ ] Validate the archive contents and deliver the downloadable package
