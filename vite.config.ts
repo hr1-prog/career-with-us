@@ -152,7 +152,7 @@ function vitePluginManusDebugCollector(): Plugin {
 
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector()];
 
-export default defineConfig({
+export default defineConfig({ base: "/career-with-us/",
   plugins,
   resolve: {
     alias: {
